@@ -9,7 +9,7 @@ const Education = () => {
         <strong>Mathematics and Computer Science Bachelor</strong>
       </h3>
       <p>Belarusian State University</p>
-      <p>2018 — 2020</p>
+      <p>2022 — 2023</p>
     </div>
   );
 };
