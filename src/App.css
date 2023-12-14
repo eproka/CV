@@ -1,0 +1,79 @@
+*{
+  font-style: oblique;
+}
+
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.name-specialty {
+  flex: 1;
+  max-width: 690px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.contact-info {
+  flex: 1;
+  margin-top: 60px;
+}
+.date {
+  font-size: 14px;
+}
+
+.work-experience {
+  margin-left: 20px;
+}
+.right-column {
+  flex: 1;
+}
+.left-column {
+  flex: 1;
+  max-width: 650px;
+}
+
+.right-column {
+  flex: 1;
+  max-width: 220px;
+  margin-left: 60px;
+}
+
+.projects {
+  margin-left: 20px;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.technologies {
+  display: flex;
+  gap: 10px;
+}
+
+.github-button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  height: 40px;
+  width: 120px;
+  border: none;
+}
+
+.github-button:hover {
+  background-color: gray;
+}
